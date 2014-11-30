@@ -15,6 +15,9 @@
     shouldOpenInPopup: false
   });
 
+  document.write('<' + 'script language="javascript" type="text/javascript" charset="utf-8"');
+  document.write(' src="http://v3.jiathis.com/code/jia.js?uid=1">');
+  document.write('<'+'/script'+'>');
 
   Discourse.ShareLink.addTarget('renren', {
     iconClass: 'fa-renren',
@@ -26,4 +29,5 @@
   });
 
 })();
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1" charset="utf-8"></script> 
+
+
