@@ -14,7 +14,7 @@
       var $this = $('.share');
       var html = [
         '<a href="#" class="overlay" id="qrcode"></a>',
-        '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>'
+        '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodeURIComponent(link) + '"/></div>'
         ].join('');
       $this.append(html);
       $('.article-share-qrcode').click(function(){
