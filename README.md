@@ -1,6 +1,8 @@
 Discourse Chinese Share
 =======================
 
+使用此插件请fork本项目，并修改 `assets/javascripts/share_links.js`文件中的`码农圈`为您的站点名字。
+
 A Easy plugin to add Chinese share buttons in [Discourse](https://github.com/discourse/discourse).
 
 We can add share buttons like Weibo, Wechat, Renren.
