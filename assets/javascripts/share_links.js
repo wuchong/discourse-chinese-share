@@ -17,10 +17,6 @@
     popupHeight: 200
   });
 
-  document.write('<' + 'script language="javascript" type="text/javascript" charset="utf-8"');
-  document.write(' src="http://v3.jiathis.com/code/jia.js?uid=1">');
-  document.write('<'+'/script'+'>');
-
   Discourse.ShareLink.addTarget('renren', {
     iconClass: 'fa-renren',
     generateUrl: function(link, title) {
