@@ -2,7 +2,7 @@
   Discourse.ShareLink.addTarget('weibo', {
     iconClass: 'fa-weibo',
     generateUrl: function(link, title) {
-      return ("http://service.weibo.com/share/share.php?url=" + encodeURIComponent(link) + "&title=【码农圈 - " + encodeURIComponent(title))+ "】&searchPic=true&style=number";
+      return ("http://service.weibo.com/share/share.php?url=" + encodeURIComponent(link) + "&title=分享了来自 @码农圈 的话题【" + encodeURIComponent(title))+ "】，码农圈是一个面向程序员交流分享的社区&searchPic=true&style=number";
     },
     shouldOpenInPopup: true,
     popupHeight: 370
