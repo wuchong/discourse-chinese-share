@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Discourse Chinese Share
 =======================
 
@@ -68,4 +67,4 @@ Current version: 0.1.1
 0.1.1: 增加了微信支持（弹出窗口）
 
 <img src="https://meta.discourse.org/uploads/default/37011/5ca80fe8f9fbd487.png" width="390" height="197">
->>>>>>> 7deece8bb7b00b448e7bc829be957a1b437b349e
+
