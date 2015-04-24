@@ -24,6 +24,7 @@ hooks:
 ```
 - git clone https://github.com/wuchong/discourse-chinese-share.git
 ```
+将上面的`wuchong`改成你的用户名，也就是说，此处添加的是你fork后的git地址。
 
 重建 Discourse：`/var/discourse/launcher rebuild app`
 
